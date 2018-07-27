@@ -5,12 +5,11 @@
 
 
 ## Data Source
-    GDELT uploads the dataset every 15 minutes at the below location. 
-    http://data.gdeltproject.org/gdeltv2/lastupdate.txt    
+    GDELT website
 
     
 ## Architecture:
-   Planning to create stream pipeline where new events from Kafka would stream through Spark streaming and will be loaded to MySQL and Cassandra. The real time data request from Flask would fetch the data from MySQL and time series data from Cassandra.
+   Planning to create stream pipeline where new events from Kafka would stream through Spark streaming and will be loaded to      MySQL and Cassandra. The real time data request from Flask would fetch the data from MySQL and time series data from          Cassandra.
 
    Stream Pipeline:
    Kafka --> Spark Streaming - (MySQL + Cassandra) --> Flask
