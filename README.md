@@ -9,7 +9,7 @@
 
     
 ## Architecture:
-   Planning to create stream pipeline where new events from Kafka would stream through Spark streaming and will be loaded to      MySQL and Cassandra. The real time data request from Flask would fetch the data from MySQL and time series data from          Cassandra.
+   Planning to create stream pipeline where new events from Kafka would stream through Spark streaming and will be loaded to      Cassandra. The real time data request from Flask would fetch the data from Cassandra.
 
    Stream Pipeline:
    
