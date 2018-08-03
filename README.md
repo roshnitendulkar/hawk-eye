@@ -13,7 +13,7 @@
 
    Stream Pipeline:
    
-   ## Kafka --> Spark Streaming --> Cassandra --> Flask
+   ## S3 --> Spark --> Cassandra --> Flask
                                 
 
 
