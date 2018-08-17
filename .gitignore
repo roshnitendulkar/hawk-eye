@@ -105,3 +105,4 @@ venv.bak/
 
 # config file
 src/spark/configs.py
+srs/flask/congigs.py
