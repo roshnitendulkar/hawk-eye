@@ -6,7 +6,7 @@
 
 ## Data Pipeline:
 
-![](.images/data_pipeline.jpg)
+![](.images/data_pipeline.png)
 
 ## Data Processing:
  
